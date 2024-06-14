@@ -7,7 +7,7 @@ import (
 )
 
 func handler(w http.ResponseWriter, r *http.Request) {
-    fmt.Fprintf(w, "Oi")
+    fmt.Fprintf(w, "Olá, amigo!")
 }
 
 func main() {
